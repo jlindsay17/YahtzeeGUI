@@ -1,5 +1,6 @@
 /**
  * This class performs the game operation while there are 6 dice in play
+ * All comments should apply as seen in "YahtzeeActualGameForm" except with 6 dice
  */
 import javax.swing.*;
 import java.awt.event.ActionEvent;

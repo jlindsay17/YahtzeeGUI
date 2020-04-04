@@ -1,3 +1,8 @@
+/**
+ * Jackson Lindsay
+ * HW4
+ * This class performs the game's main menu operations
+ */
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -35,6 +40,10 @@ public class YahtzeeGUI extends JFrame {
         this.setContentPane(mainPanel);
         this.pack();
 
+
+        /**
+         * Button listeners
+         */
 
         playButton.addActionListener(new ActionListener() {
             @Override

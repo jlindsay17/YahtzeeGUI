@@ -59,7 +59,9 @@ public class YahtzeeActualGame extends JFrame{
 //        d5.rollDice(d5);
 //        System.out.println(d5.getSideUp());
 
-        //BUTTON LISTENERS
+        /**
+         * Button Listeners
+         */
 
         rulesButton.addActionListener(new ActionListener() {
             @Override
@@ -79,6 +81,10 @@ public class YahtzeeActualGame extends JFrame{
             }
         });
 
+        /**
+         * The logic makes sense here but it does not work and I am not sure why
+         * Instead it makes one huge image ???
+         */
         rollButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -88,7 +94,7 @@ public class YahtzeeActualGame extends JFrame{
                 }
                 else{
                     while (rollCount < 3){
-
+                        rollDiceImages();
                         rollCount++;
                     }
                 }
@@ -102,6 +108,9 @@ public class YahtzeeActualGame extends JFrame{
         });
     }
 
+    /**
+     * Function to roll dice and change images
+     */
     public void rollDiceImages(){
         if (!checkBox1.isSelected()){
             //roll dice 1

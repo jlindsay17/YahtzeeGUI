@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0799eee-b318-42c7-b2e1-8916e57eb8c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1-sided.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2-sided.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3-sided.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/4-sided.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/5-sided.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/6-sided.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/Dice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/SevenDiceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/SevenDiceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/SixDiceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/SixDiceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YahtzeeGUIVersion/YahtzeeActualGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenDiceForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SevenDiceForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixDiceForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixDiceForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/YahtzeeActualGame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/YahtzeeActualGame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/YahtzeeActualGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YahtzeeActualGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YahtzeeGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YahtzeeGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
