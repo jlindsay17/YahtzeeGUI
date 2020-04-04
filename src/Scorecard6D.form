@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Scorecard6D">
+  <grid id="27dc6" binding="sixSideDiceScorecardD" layout-manager="GridLayoutManager" row-count="17" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="424"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7a925" class="javax.swing.JLabel" binding="upperScorecardLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Upper Scorecard"/>
+        </properties>
+      </component>
+      <hspacer id="6c0f4">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="1d85" class="javax.swing.JLabel" binding="acesLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Aces"/>
+        </properties>
+      </component>
+      <component id="aa82e" class="javax.swing.JLabel" binding="twosLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Twos"/>
+        </properties>
+      </component>
+      <component id="7ee8b" class="javax.swing.JLabel" binding="threesLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Threes"/>
+        </properties>
+      </component>
+      <component id="6d1eb" class="javax.swing.JLabel" binding="foursLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fours"/>
+        </properties>
+      </component>
+      <component id="560a2" class="javax.swing.JLabel" binding="fivesLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fives"/>
+        </properties>
+      </component>
+      <component id="cfa90" class="javax.swing.JLabel" binding="sixesLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sixes"/>
+        </properties>
+      </component>
+      <component id="8f58f" class="javax.swing.JLabel" binding="lowerScorecardLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lower ScoreCard"/>
+        </properties>
+      </component>
+      <component id="cefba" class="javax.swing.JLabel" binding="threeKindLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="3 of a Kind"/>
+        </properties>
+      </component>
+      <component id="61698" class="javax.swing.JLabel" binding="fourKindLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="4 of a Kind"/>
+        </properties>
+      </component>
+      <component id="40ecf" class="javax.swing.JLabel" binding="fullHouseLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Full House"/>
+        </properties>
+      </component>
+      <component id="46765" class="javax.swing.JLabel" binding="smallStraightLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Small Straight"/>
+        </properties>
+      </component>
+      <component id="65a15" class="javax.swing.JLabel" binding="largeStraightLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Large Straight"/>
+        </properties>
+      </component>
+      <component id="755ce" class="javax.swing.JLabel" binding="yahtzeeLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Yahtzee"/>
+        </properties>
+      </component>
+      <component id="247a0" class="javax.swing.JLabel" binding="chanceLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Chance"/>
+        </properties>
+      </component>
+      <component id="974e1" class="javax.swing.JLabel" binding="bonusLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BONUS"/>
+        </properties>
+      </component>
+      <component id="125f9" class="javax.swing.JLabel" binding="acesScoreLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="f8ca7" class="javax.swing.JLabel" binding="twosScoreLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="1ec74" class="javax.swing.JLabel" binding="threesScoreLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="4f3d4" class="javax.swing.JLabel" binding="foursScoreLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="ce15e" class="javax.swing.JLabel" binding="fivesScoreLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="3ba8" class="javax.swing.JLabel" binding="sixesScoreLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="aa49f" class="javax.swing.JLabel" binding="threeKindScoreLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="1cf0c" class="javax.swing.JLabel" binding="fourKindScoreLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="a2e8e" class="javax.swing.JLabel" binding="fullHouseScoreLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="13675" class="javax.swing.JLabel" binding="smallStraightScoreLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="692e6" class="javax.swing.JLabel" binding="largeStraightScoreLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="efb4d" class="javax.swing.JLabel" binding="yahtzeeScoreLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="f25e9" class="javax.swing.JLabel" binding="chanceScoreLabel">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="b9c88" class="javax.swing.JLabel" binding="bonusScoreLabel">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+      <component id="7d13c" class="javax.swing.JLabel" binding="totalScoreLabel">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Total"/>
+        </properties>
+      </component>
+      <component id="edfc2" class="javax.swing.JLabel" binding="totalScore">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="--"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
