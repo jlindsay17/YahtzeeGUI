@@ -4,7 +4,10 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.AdjustmentEvent;
+import java.awt.event.AdjustmentListener;
 import java.io.FileNotFoundException;
+import java.util.Random;
 
 public class YahtzeeActualGame extends JFrame{
     private JCheckBox checkBox1;
@@ -21,6 +24,12 @@ public class YahtzeeActualGame extends JFrame{
     private JButton rulesButton;
     private JButton scorecardButton;
     private JButton rollButton;
+    private JScrollBar scrollBar1;
+    private static Dice d1;
+    private static Dice d2;
+    private static Dice d3;
+    private static Dice d4;
+    private static Dice d5;
 
     public YahtzeeActualGame (String title) {
         super(title);
@@ -37,6 +46,18 @@ public class YahtzeeActualGame extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(actualGamePanel);
         this.pack();
+
+        //Initial Dice Roll
+//        d1.rollDice(d1);
+//        System.out.println(d1.getSideUp());
+//        d2.rollDice(d2);
+//        System.out.println(d2.getSideUp());
+//        d3.rollDice(d3);
+//        System.out.println(d3.getSideUp());
+//        d4.rollDice(d4);
+//        System.out.println(d4.getSideUp());
+//        d5.rollDice(d5);
+//        System.out.println(d5.getSideUp());
 
         //BUTTON LISTENERS
 
@@ -67,35 +88,293 @@ public class YahtzeeActualGame extends JFrame{
                 }
                 else{
                     while (rollCount < 3){
-                        if (!checkBox1.isSelected()){
-                            //roll dice 1
-                        }
-                        if (!checkBox2.isSelected()){
-                            //roll dice 2
-                        }
-                        if (!checkBox3.isSelected()){
-                            //roll dice 3
-                        }
-                        if (!checkBox4.isSelected()){
-                            //roll dice 4
-                        }
-                        if (!checkBox5.isSelected()){
-                            //roll dice 5
-                        }
+
                         rollCount++;
                     }
                 }
             }
         });
+        scrollBar1.addAdjustmentListener(new AdjustmentListener() {
+            @Override
+            public void adjustmentValueChanged(AdjustmentEvent e) {
+
+            }
+        });
+    }
+
+    public void rollDiceImages(){
+        if (!checkBox1.isSelected()){
+            //roll dice 1
+            Random rand1 = new Random();
+            int randInt = rand1.nextInt(12) + 1;
+            if (randInt == 1){
+                dice1Label.setIcon(new ImageIcon("src/1-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 2){
+                dice1Label.setIcon(new ImageIcon("src/2-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 3){
+                dice1Label.setIcon(new ImageIcon("src/3-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 4){
+                dice1Label.setIcon(new ImageIcon("src/4-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 5){
+                dice1Label.setIcon(new ImageIcon("src/5-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 6){
+                dice1Label.setIcon(new ImageIcon("src/6-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 7){
+                dice1Label.setIcon(new ImageIcon("src/7-sidedsmall.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 8){
+                dice1Label.setIcon(new ImageIcon("src/-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 9){
+                dice1Label.setIcon(new ImageIcon("src/9-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 10){
+                dice1Label.setIcon(new ImageIcon("src/10-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 11){
+                dice1Label.setIcon(new ImageIcon("src/11-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 12){
+                dice1Label.setIcon(new ImageIcon("src/12-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+
+        }
+        if (!checkBox2.isSelected()){
+            //roll dice 2
+            Random rand1 = new Random();
+            int randInt = rand1.nextInt(12) + 1;
+            if (randInt == 1){
+                dice2Label.setIcon(new ImageIcon("src/1-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 2){
+                dice2Label.setIcon(new ImageIcon("src/2-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 3){
+                dice2Label.setIcon(new ImageIcon("src/3-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 4){
+                dice2Label.setIcon(new ImageIcon("src/4-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 5){
+                dice2Label.setIcon(new ImageIcon("src/5-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 6){
+                dice2Label.setIcon(new ImageIcon("src/6-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 7){
+                dice1Label.setIcon(new ImageIcon("src/7-sidedsmall.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 8){
+                dice2Label.setIcon(new ImageIcon("src/-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 9){
+                dice1Label.setIcon(new ImageIcon("src/9-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 10){
+                dice2Label.setIcon(new ImageIcon("src/10-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 11){
+                dice2Label.setIcon(new ImageIcon("src/11-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 12){
+                dice2Label.setIcon(new ImageIcon("src/12-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+
+        }
+        if (!checkBox3.isSelected()){
+            //roll dice 3
+            Random rand1 = new Random();
+            int randInt = rand1.nextInt(12) + 1;
+            if (randInt == 1){
+                dice3Label.setIcon(new ImageIcon("src/1-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 2){
+                dice3Label.setIcon(new ImageIcon("src/2-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 3){
+                dice3Label.setIcon(new ImageIcon("src/3-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 4){
+                dice3Label.setIcon(new ImageIcon("src/4-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 5){
+                dice3Label.setIcon(new ImageIcon("src/5-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 6){
+                dice3Label.setIcon(new ImageIcon("src/6-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 7){
+                dice3Label.setIcon(new ImageIcon("src/7-sidedsmall.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 8){
+                dice3Label.setIcon(new ImageIcon("src/-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 9){
+                dice3Label.setIcon(new ImageIcon("src/9-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 10){
+                dice3Label.setIcon(new ImageIcon("src/10-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 11){
+                dice3Label.setIcon(new ImageIcon("src/11-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 12){
+                dice3Label.setIcon(new ImageIcon("src/12-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+        }
+        if (!checkBox4.isSelected()){
+            //roll dice 4
+            Random rand1 = new Random();
+            int randInt = rand1.nextInt(12) + 1;
+            if (randInt == 1){
+                dice4Label.setIcon(new ImageIcon("src/1-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 2){
+                dice4Label.setIcon(new ImageIcon("src/2-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 3){
+                dice4Label.setIcon(new ImageIcon("src/3-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 4){
+                dice4Label.setIcon(new ImageIcon("src/4-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 5){
+                dice4Label.setIcon(new ImageIcon("src/5-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 6){
+                dice4Label.setIcon(new ImageIcon("src/6-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 7){
+                dice4Label.setIcon(new ImageIcon("src/7-sidedsmall.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 8){
+                dice4Label.setIcon(new ImageIcon("src/-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 9){
+                dice4Label.setIcon(new ImageIcon("src/9-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 10){
+                dice4Label.setIcon(new ImageIcon("src/10-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 11){
+                dice4Label.setIcon(new ImageIcon("src/11-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 12){
+                dice4Label.setIcon(new ImageIcon("src/12-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+        }
+        if (!checkBox5.isSelected()){
+            //roll dice 5
+            Random rand1 = new Random();
+            int randInt = rand1.nextInt(12) + 1;
+            if (randInt == 1){
+                dice5Label.setIcon(new ImageIcon("src/1-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 2){
+                dice5Label.setIcon(new ImageIcon("src/2-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 3){
+                dice5Label.setIcon(new ImageIcon("src/3-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 4){
+                dice5Label.setIcon(new ImageIcon("src/4-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 5){
+                dice5Label.setIcon(new ImageIcon("src/5-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 6){
+                dice5Label.setIcon(new ImageIcon("src/6-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 7){
+                dice5Label.setIcon(new ImageIcon("src/7-sidedsmall.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 8){
+                dice5Label.setIcon(new ImageIcon("src/-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 9){
+                dice5Label.setIcon(new ImageIcon("src/9-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 10){
+                dice5Label.setIcon(new ImageIcon("src/10-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 11){
+                dice5Label.setIcon(new ImageIcon("src/11-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+            if (randInt == 12){
+                dice5Label.setIcon(new ImageIcon("src/12-sided.png"));
+                actualGamePanel.setVisible(true);
+            }
+        }
     }
 
     public static void main(String[] args) throws FileNotFoundException {
         //Initializes 5 dice objects
-        Dice d1 = new Dice();
-        Dice d2 = new Dice();
-        Dice d3 = new Dice();
-        Dice d4 = new Dice();
-        Dice d5 = new Dice();
+
 
         //Initial roll so dice have different starting values
         d1.rollDice(d1);

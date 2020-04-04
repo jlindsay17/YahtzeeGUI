@@ -45,15 +45,16 @@ public class Dice {
     /**
      * Function to roll dice based on parameters in the txt file
      */
-    public void rollDice(Dice dice) throws FileNotFoundException {
-        Scanner input = new Scanner(new File("src/yahtzeeConfig.txt"));
-        String sidesPerDice = input.nextLine();
-        int sidesPerDiceResult = Integer.parseInt(sidesPerDice);
-        String diceInHand = input.nextLine();
-        String rollsPerTurn = input.nextLine();
+    public void rollDice(Dice dice) {
+//            throws FileNotFoundException {
+//        Scanner input = new Scanner(new File("src/yahtzeeConfig.txt"));
+//        String sidesPerDice = input.nextLine();
+//        int sidesPerDiceResult = Integer.parseInt(sidesPerDice);
+//        String diceInHand = input.nextLine();
+//        String rollsPerTurn = input.nextLine();
 
         Random rand = new Random();
-        int randInt = rand.nextInt(sidesPerDiceResult) + 1;
+        int randInt = rand.nextInt(6) + 1;
         dice.setSideUp(randInt);
     }
 

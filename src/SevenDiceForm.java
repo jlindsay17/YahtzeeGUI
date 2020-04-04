@@ -2,6 +2,8 @@
  * This class performs the game operation while there are 7 dice in play
  */
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class SevenDiceForm extends JFrame {
     private JCheckBox checkBox1;
@@ -39,5 +41,26 @@ public class SevenDiceForm extends JFrame {
         this.setContentPane(sevenDicePanel);
         this.pack();
 
+        rulesButton7.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame rulesFrame = new RulesForm("RULES");
+                rulesFrame.setVisible(true);
+                rulesFrame.setSize(300, 250);
+            }
+        });
+        rollButton7.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+        scorecardButton7.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame scoreCard6Frame = new Scorecard6D("Scorecard");
+                scoreCard6Frame.setVisible(true);
+            }
+        });
     }
 }
